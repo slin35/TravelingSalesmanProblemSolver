@@ -1,4 +1,5 @@
 # Traveling Salesman Problem Solver
+time complexity O(n^2*2^n)
 compile with -std=c++14
 
 ### To get the tour
