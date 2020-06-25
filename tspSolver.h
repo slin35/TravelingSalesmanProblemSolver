@@ -66,8 +66,6 @@ class tspSolver {
                 std::cout << std::endl;
             }
 
-            
-
             return tour;
         }
 
