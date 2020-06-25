@@ -110,14 +110,12 @@ class tspSolver {
                 }
             }
 
-            std::cout << minTourCost << std::endl;
             return minTourCost;
         }
 
         void generateCombinations(int size, int val, int i) {
             if (i == size) {
                 subset.push_back(val);
-            //    std::cout << std::bitset<32>(val) << std::endl;
                 return;
             }
 
