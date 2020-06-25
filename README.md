@@ -12,5 +12,6 @@ solver.getTour(true)   // for printing the result
 ```cpp
 // instantiate a solver with distance matrix m and a start node
 tspSolver<6> solver{m, start};
-std::cout << solver.getTour(false) << std::endl;
+solver.getTour(false);
+std::cout << solver.getMinCost() << std::endl;
 ```
