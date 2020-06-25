@@ -132,8 +132,7 @@ class tspSolver {
     private:
         Matrix distMatrix, memo;
         std::vector<int> tour, subset;
-        int start;
-        int minTourCost{std::numeric_limits<int>::max()};
+        int start, minTourCost{std::numeric_limits<int>::max()};
 };
 
 #endif
