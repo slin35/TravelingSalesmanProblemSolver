@@ -63,9 +63,10 @@ class tspSolver {
             if (printable) {
                 for (int i : tour)
                     std::cout<< i << " ";
+                std::cout << std::endl;
             }
 
-            std::cout << std::endl;
+            
 
             return tour;
         }
